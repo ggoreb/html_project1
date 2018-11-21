@@ -1,0 +1,19 @@
+<meta charset="utf8">
+<style>
+    ol > .first {color:red;}
+    .second + .first {color:blue;}
+    ol .second {color:green}
+    ul > .third {color:orange}
+    .third + .second {color:magenta}
+    .second ~ .third {color:cyan}
+</style>
+<ol>
+    <li class="first"><h2>1-1</h2></li>
+    <li class="second"><h2>1-2</h2></li>
+    <li class="first"><h2>1-3</h2></li>
+</ol>
+<ul>
+    <li class="third"><h2>2-1</h2></li>
+    <li class="second"><h2>2-2</h2></li>
+    <li class="third"><h2>2-3</h2></li>
+</ul>
