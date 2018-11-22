@@ -4,26 +4,25 @@
     <meta charset="utf-8">
     <title>HTML5 연습</title>
     <style>
- div {
- width: 100px; height: 100px;
- display: inline-block;
- }
- #top {
-     position: relative;
-     background-color: red;
-     z-index:890;
- }
- #center {
-    z-index:889;
-     position: relative;
-     background-color: green;
-     top:-50px; left:-50px;
- }
- #bottom {
-     position: fixed;
-     bottom:0; left:50px;
-     background-color: blue;
- }
+         div {
+         width: 100px; height: 100px;
+         display: inline-block;
+         }
+         #top {
+             z-index:1;
+             position: relative;
+             background-color: red;
+         }
+         #center {
+             position: fixed;
+             background-color: green;
+             bottom:0px; left:30px
+         }
+         #bottom {
+             position: relative;
+             left: -50px; top:20px;
+             background-color: blue;
+         }
 
     </style>
 </head>
@@ -37,6 +36,7 @@
     <div id="bottom">
         bottom
     </div>
+
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
